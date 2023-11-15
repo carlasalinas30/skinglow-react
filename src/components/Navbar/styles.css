@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+
+}
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+.category-buttom {
+    background-color: transparent;
+    border-color: none;
+    color:blue;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
